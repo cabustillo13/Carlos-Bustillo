@@ -55,6 +55,11 @@ nav{
     line-height: 40px;
 }
 
+.enlace{
+    color:white;
+    text-decoration: none;
+}
+
 .outter{
     margin-right:40px;
 }
