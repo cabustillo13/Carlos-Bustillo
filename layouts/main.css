@@ -25,10 +25,6 @@ nav{
     flex-direction: row;
     align-content: space-around;
     justify-content: right;
-    
-    /*Centrar vertical y horizontalmente el div*/
-    position: relative;
-    transform: translateY(-30%);
 }
 
 .logo{
@@ -37,7 +33,6 @@ nav{
     flex-direction: row;
     align-content: space-around;
     justify-content: left;
-    margin-left:35px;
 }
 
 .ventana1{
@@ -54,6 +49,10 @@ nav{
     vertical-align: middle;
     /*Darle la misma que mi height*/
     line-height: 25px;
+    
+    /*Centrar vertical y horizontalmente el div*/
+    position: relative;
+    transform: translateY(-60px);
 }
 
 .enlace{
@@ -66,13 +65,19 @@ nav{
 }
 
 .inner{
+    margin-left:35px;
     width:20%;
     background-color: #385978;
     /*Centrar vertical y horizontalmente el div*/
     position: relative;
-    transform: translateY(35px);
+    transform: translateY(24px);
 }
 
 .ventana1:hover {
     background-color: #6f4695;
+}
+
+.logoImage{
+    width:80px;
+    margin-left:5px;
 }
