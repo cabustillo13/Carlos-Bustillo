@@ -28,7 +28,7 @@ nav{
     
     /*Centrar vertical y horizontalmente el div*/
     position: relative;
-    transform: translateY(-70%);
+    transform: translateY(-30%);
 }
 
 .logo{
@@ -37,17 +37,13 @@ nav{
     flex-direction: row;
     align-content: space-around;
     justify-content: left;
-    margin-left:40px;
-    
-    /*Centrar vertical y horizontalmente el div*/
-    position: relative;
-    transform: translateY(-20px);
+    margin-left:35px;
 }
 
 .ventana1{
     background-color: #406384;
     width:10%;
-    height:40px;
+    height:25px;
     margin:5px;
     
     color:white;
@@ -57,7 +53,7 @@ nav{
     text-align:center;
     vertical-align: middle;
     /*Darle la misma que mi height*/
-    line-height: 40px;
+    line-height: 25px;
 }
 
 .enlace{
