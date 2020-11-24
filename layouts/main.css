@@ -37,6 +37,11 @@ nav{
     flex-direction: row;
     align-content: space-around;
     justify-content: left;
+    margin-left:40px;
+    
+    /*Centrar vertical y horizontalmente el div*/
+    position: relative;
+    transform: translateY(-20px);
 }
 
 .ventana1{
@@ -65,11 +70,13 @@ nav{
 }
 
 .inner{
-    margin-left:40px;
     width:20%;
-    background-color:#385978;
-    
+    background-color: #385978;
     /*Centrar vertical y horizontalmente el div*/
     position: relative;
-    transform: translateY(15px);
+    transform: translateY(35px);
+}
+
+.ventana1:hover {
+    background-color: #6f4695;
 }
