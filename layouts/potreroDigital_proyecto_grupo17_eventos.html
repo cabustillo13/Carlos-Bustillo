@@ -5,7 +5,10 @@
         <title>EVENTOS</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/eventos.css">
+        
     </head>
     
     <header>    
@@ -37,11 +40,130 @@
     </header>
     
     <address>
-        <div class="barraContacto"></div>
-        <div class="barraContacto"></div>
+        <div class="barraContacto">
+            <div class="socialNetwork">MAIL</div>
+            <div class="socialNetwork">LINKEDIN</div>
+            <div class="socialNetwork">GITHUB</div>
+        </div>
+        <div class="barraContacto">
+            <div class="socialNetwork">MEDIUM</div>
+            <div class="socialNetwork">GEEKFORGEEKS</div>
+            <div class="socialNetwork">LA WEB DEL PROGRAMADOR</div>
+        </div>
     </address>
     
-    <body></body>
+    <div>
+        <h4 class="frase">Considero que compartir conocimiento nos hace crecer como personas.<br>
+        A continuación charlas, talleres y conferencias que he impartido en distintos países.</h4>
+    </div>
+    
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Mostrar Todo</button>
+        <button class="btn" onclick="filterSelection('argentina')"> Argentina</button>
+        <button class="btn" onclick="filterSelection('mexico')"> México</button>
+        <button class="btn" onclick="filterSelection('honduras')"> Honduras</button>
+        <button class="btn" onclick="filterSelection('ecuador')"> Ecuador</button>
+        <button class="btn" onclick="filterSelection('peru')"> Perú</button>
+        <button class="btn" onclick="filterSelection('colombia')"> Colombia</button>
+        <button class="btn" onclick="filterSelection('bolivia')"> Bolivia</button>
+    </div>
+
+    <div class="row">
+        
+        <div class="column argentina">
+            <div class="content">
+                <img src="../resources/probando.png" alt="Argentina" style="width:100%">
+                <h4>Software Freedom Day</h4>
+                <h5>Evento Mundial.</h5>
+                <p>No al Sedentarismo con Python, en el mayor evento mundial de Software Libre.</p>
+                <h5><a href="https://bit.ly/3ouchMG" target="_blank">Ver evento</a> </h5>
+            </div>
+        </div>
+        
+        <div class="column argentina">
+            <div class="content">
+                <img src="../resources/probando.png" alt="Argentina" style="width:100%">
+                <h4>PyCon Argentina</h4>
+                <h5>Evento Nacional.</h5>
+                <p>Introducción al Procesamiento de Imágenes, para Python Argentina.</p>
+                <h5><a href="https://bit.ly/3ovYsh4" target="_blank">Ver evento</a> </h5>
+            </div>
+        </div>
+        
+        <div class="column honduras">
+            <div class="content">
+                <img src="../resources/probando.png" alt="Honduras" style="width:100%">
+                <h4>DevTeam504</h4>
+                <h5>En Tegucigalpa, Honduras.</h5>
+                <p>Procesamiento de Imágenes, en uno de los canales dev de Honduras.</p>
+                <h5><a href="https://bit.ly/3mUR8v2" target="_blank">Ver evento</a> </h5>
+            </div>
+        </div>
+
+        <div class="column colombia">
+            <div class="content">
+                <img src="../resources/probando.png" alt="Colombia" style="width:100%">
+                <h4>Python Pereyra</h4>
+                <h5>En Pereyra, Colombia. </h5>
+                <p>Charla sobre Procesamiento de Imágenes.</p>
+                <h5><a href="https://bit.ly/2VJnoFd" target="_blank">Ver evento</a> </h5>
+            </div>
+        </div>
+        
+        <div class="column peru">
+            <div class="content">
+                <img src="../resources/probando.png" alt="Perú" style="width:100%">
+                <h4>Data Science Research Perú</h4>
+                <h5>En Lima, Perú.</h5>
+                <p>Charla sobre Introducción al Procesamiento de Imágenes con Python.</p>
+                <h5><a href="https://www.datascience.pe/" target="_blank">Ver evento</a> </h5>
+            </div>
+        </div>
+        
+        <div class="column argentina">
+            <div class="content">
+                <img src="../resources/probando.png" alt="Argentina" style="width:100%">
+                <h4>Club del Software Libre</h4>
+                <h5>En Buenos Aires, Argentina.</h5>
+                <p>Puesta en valor de la Numeración Maya con Tecnología del siglo 21: Python.</p>
+                <h5><a href="https://bit.ly/3mOsYST" target="_blank">Ver evento</a> </h5>
+            </div>
+        </div>
+
+        <div class="column ecuador">
+            <div class="content">
+                <img src="../resources/probando.png" alt="Ecuador" style="width:100%">
+                <h4>Comunidad Latina de Tecnologías Libres</h4>
+                <h5>En Quito, Ecuador.</h5>
+                <p>Puesta en valor de la Numeración Maya con Tecnología del siglo 21: Python.</p>
+                <h5><a href="https://bit.ly/33Pu5Kj" target="_blank">Ver evento</a> </h5>
+            </div>
+        </div>
+        
+        <div class="column bolivia">
+            <div class="content">
+                <img src="../resources/probando.png" alt="People" style="width:100%">
+                <h4>PyLadies Cochabamba</h4>
+                <h5>En Cochabamba, Bolivia. </h5>
+                <p>Jugando con Python: Aprende Pygame, OpenCV y más</p>
+                <h5><a href="https://bit.ly/2VM8sq6" target="_blank">Ver evento</a> </h5>
+            </div>
+        </div>
+        
+        <div class="column mexico">
+            <div class="content">
+                <img src="../resources/probando.png" alt="People" style="width:100%">
+                <h4>Hackerspace Rancho Electrónico</h4>
+                <h5>En Distrito Federal, México</h5>
+                <p>Numeración Maya con Python.</p>
+                <h5><a href="https://bit.ly/3geMDZE" target="_blank">Ver evento</a> </h5>
+            </div>
+        </div>
+    
+    </div> 
+
+    <!--Funciones de Javascript-->
+    <script src="../scripts/mostrarEventos.js"></script> 
     
     <!--Footer-->
     <footer>Copyright © 2020 Carlos Bustillo. Todos los derechos reservados.</footer>

@@ -85,8 +85,37 @@ nav{
 }
 
 /*Address*/
+address{
+    width:100%;
+    height:90px;
+    background-color:#385978;
+}
+
 .barraContacto{
     background-image: url("../resources/barraContacto.png");
     width:100%;
-    height:20px;
+    height:40px;
+    margin-bottom:5px;
+    
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.socialNetwork{
+    background-color:red;
+    width:300px;
+    height:100%;
+    
+    color:white;
+    font-family:Arial;
+    font-weight:bold;
+    margin:2px;
+    
+    text-align:center;
+    vertical-align: middle;
+    /*Darle la misma que mi height*/
+    line-height: 40px;
 }

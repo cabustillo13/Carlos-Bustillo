@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Web centrada */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Agregue relleno ENTRE cada columna */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Crea tres columnas iguales que floten una al lado de la otra. */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Ocultar columnas de forma predeterminada */
+}
+
+/* Limpiar los flotadores despues de las filas */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Contenido */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* La clase "show" se agrega a los elementos filtrados */
+.show {
+  display: block;
+}
+
+/* Estilo de los botones */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Agrega un color de fondo gris al pasar el mouse */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Agrega un color de fondo oscuro al botón activo */
+.btn.active {
+  background-color: #666;
+   color: white;
+} 
+
+.frase{
+    text-align:center;
+}
