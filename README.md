@@ -34,7 +34,7 @@ Estoy contento con los resultados. Más que todo porque fue la primera vez que h
 
 ## Consideraciones
 
-Tomé como pantalla mínima para celular 830 px, y en base a eso desarrolle mi Responsive Design.
+Tomé como pantalla mínima para celular 830 px, y en base a eso trabaje mi Responsive Design.
 
 ## Profesores
 
