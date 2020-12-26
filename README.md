@@ -32,6 +32,10 @@ Y plantee un Portfolio como proyecto final, con la idea de explorar nuevas funci
 
 Estoy contento con los resultados. Más que todo porque fue la primera vez que hice algo desde cero, sin usar ningún template o mockup web.Y puse en práctica lo aprendido, especialmente el Responsive Design, que fue todo un desafío.
 
+## Consideraciones
+
+Tomé como pantalla mínima para celular 830 px, y en base a eso desarrolle mi Responsive Design.
+
 ## Profesores
 
 Gonzalo Sfara - Luis Amarilla
