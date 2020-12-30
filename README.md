@@ -39,6 +39,3 @@ Tomé como pantalla mínima para celular 830 px, y en base a eso trabaje mi Resp
 ## Profesores
 
 Gonzalo Sfara - Luis Amarilla
-
-## Demo
-![Ver Demo](https://github.com/cabustillo13/Carlos-Bustillo/blob/main/layouts/potreroDigital_proyecto_grupo17_eventos.html)
