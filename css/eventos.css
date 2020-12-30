@@ -23,17 +23,30 @@ h1 {
   margin: 8px -16px;
 }
 
+/*Para celular*/
+@media (max-width: 700px){
+    /* Crea una sola columna */
+    .column {
+        float: left;
+        width: 100%;
+        display: none; /* Ocultar columnas de forma predeterminada */
+    }
+}
+ 
+/*Para computadora*/
+@media (min-width: 700px){
+    /* Crea tres columnas iguales que floten una al lado de la otra. */
+    .column {
+        float: left;
+        width: 33.33%;
+        display: none; /* Ocultar columnas de forma predeterminada */
+    }
+}
+ 
 /* Agregue relleno ENTRE cada columna */
 .row,
 .row > .column {
   padding: 8px;
-}
-
-/* Crea tres columnas iguales que floten una al lado de la otra. */
-.column {
-  float: left;
-  width: 33.33%;
-  display: none; /* Ocultar columnas de forma predeterminada */
 }
 
 /* Limpiar los flotadores despues de las filas */
