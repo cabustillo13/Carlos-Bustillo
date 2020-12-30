@@ -46,6 +46,7 @@ h1 {
 /* Contenido */
 .content {
     background-color: white;
+    padding:25px;
 }
 
 /* Diseno responsivo */
