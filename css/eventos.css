@@ -24,7 +24,7 @@ h1 {
 }
 
 /*Para celular*/
-@media (max-width: 700px){
+@media (max-width: 900px){
     /* Crea una sola columna */
     .column {
         float: left;
@@ -34,7 +34,7 @@ h1 {
 }
  
 /*Para computadora*/
-@media (min-width: 700px){
+@media (min-width: 900px){
     /* Crea tres columnas iguales que floten una al lado de la otra. */
     .column {
         float: left;
