@@ -64,3 +64,11 @@ h1 {
 .frase{
     text-align:center;
 }
+
+/*Diseno Responsive*/
+@media screen and (max-width: 900px) {
+ 
+    .enlace{
+        font-size: 50%;
+    }
+}

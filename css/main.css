@@ -118,3 +118,11 @@ address{
     /*Darle la misma que mi height*/
     line-height: 40px;
 }
+
+/*Diseno Responsive*/
+@media screen and (max-width: 900px) {
+    
+    .enlace{
+        font-size: 50%;
+    }
+}
