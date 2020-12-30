@@ -34,7 +34,7 @@ Estoy contento con los resultados. Más que todo porque fue la primera vez que h
 
 ## Demo
 
-![Probar página web](https://cabustillo13.github.io/Carlos-Bustillo/layouts/potreroDigital_proyecto_grupo17_home.html)
+![Probar página web](https://cabustillo13.github.io/Carlos-Bustillo/)
 
 ## Profesores
 
