@@ -46,10 +46,3 @@
   flex: 50%;
 }
  
-/*Diseno Responsive*/
-@media screen and (max-width: 900px) {
-    
-    .enlace{
-        font-size: 50%;
-    }
-}

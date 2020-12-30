@@ -18,52 +18,95 @@ footer{
 header{
     background-color: #385978;
     width:100%;
-    height:80px;
 }
 
-nav{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-content: space-around;
-    justify-content: right;
-}
-
-.logo{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-content: space-around;
-    justify-content: left;
-}
-
-.ventana1{
-    background-color: #406384;
-    width:10%;
-    height:25px;
-    margin:5px;
+/*Para celular*/
+@media (max-width: 900px){
     
-    color:white;
-    font-family:Arial;
-    font-weight:bold;
+    header{
+       height:55px;
+    }
     
-    text-align:center;
-    vertical-align: middle;
-    /*Darle la misma que mi height*/
-    line-height: 25px;
+    .inner{
+        display:none;
+    }
     
-    /*Centrar vertical y horizontalmente el div*/
-    position: relative;
-    transform: translateY(-60px);
+    .logoImage{
+        display:none;
+    }
+    
+    nav{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-content: flex-start;
+        justify-content: center;
+    }
+    
+    .ventana1{
+        background-color: #406384;
+        width:20%;
+        height:25px;
+        margin:15px;
+        
+        color:white;
+        font-family:Arial;
+        font-weight:bold;
+        
+        text-align:center;
+        vertical-align: middle;
+        /*Darle la misma que mi height*/
+        line-height: 25px;
+    }
 }
 
-.enlace{
-    color:white;
-    text-decoration: none;
-}
-
-.outter{
-    margin-right:40px;
+/*Para computadora*/
+@media (min-width: 900px){
+    
+    header{
+       height:80px;
+    }
+    
+    .logo{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: left;
+    }
+    
+    .logoImage{
+        width:80px;
+        margin-left:5px;
+    }
+    
+    nav{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: right;
+    }
+    
+    .ventana1{
+        background-color: #406384;
+        width:10%;
+        height:25px;
+        margin:5px;
+        
+        color:white;
+        font-family:Arial;
+        font-weight:bold;
+        
+        text-align:center;
+        vertical-align: middle;
+        /*Darle la misma que mi height*/
+        line-height: 25px;
+        
+        /*Centrar vertical y horizontalmente el div*/
+        position: relative;
+        transform: translateY(-60px);
+    }
 }
 
 .inner{
@@ -74,14 +117,13 @@ nav{
     position: relative;
     transform: translateY(24px);
 }
+    
+.outter{
+    margin-right:40px;
+}
 
 .ventana1:hover {
     background-color: #6f4695;
-}
-
-.logoImage{
-    width:80px;
-    margin-left:5px;
 }
 
 /*Address*/
@@ -119,10 +161,7 @@ address{
     line-height: 40px;
 }
 
-/*Diseno Responsive*/
-@media screen and (max-width: 900px) {
-    
-    .enlace{
-        font-size: 50%;
-    }
+.enlace{
+    color:white;
+    text-decoration: none;
 }

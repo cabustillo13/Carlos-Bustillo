@@ -34,10 +34,6 @@ body {
     .row {   
         flex-direction: column;
     }
-    
-    .enlace{
-        font-size: 50%;
-    }
 }
  
 .miTrabajo{
